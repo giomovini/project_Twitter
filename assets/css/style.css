@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* cabeçalho */
+.cabecalho {
+  flex-basis: 30%;
+}
+
+.cabecalho__logo {
+  margin-bottom: 30px;
+}
+
+.cabecalho__logo img {}
+
+.cabecalho__logo figcaption {
+  display: none;
+}
+.cabecalho__menuNavegacao {}
+
+.cabecalho__menuLista {}
+
+.cabecalho__menuItem {
+  margin-bottom: 25px;
+}
+
+.cabecalho__menuItem img {
+  max-width: 26px;
+
+}
+
+.cabecalho__menuItem a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+/* conteúdo principal */
+.conteudoPrincipal {
+  flex-basis: 70%;
+  border-left: 1px solid #e7ecf0;
+  border-right: 1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__titulo {
+  padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario {
+  padding: 10px 30px;
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+}
+
+.conteudoPrincipal__formulario textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 55px;
+}
+
+.conteudoPrincipal__formulario button {
+  text-align: right;
+  color: #fff;
+  background-color: #1da1f2;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 24px;
+}
+
+.conteudoPrincipal__feed {}
+
+.conteudoPrincipal__listaTweets {}
+
+.conteudoPrincipal__tweet {
+  padding: 20px 32px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil {}
+
+.tweet__conteudo {
+  margin-left: 15px;
+}
+
+.tweet__conteudo h2 {
+  display: inline-block;
+}
+
+.tweet__conteudo span {
+  display: inline-block;
+  color: #828282;
+}
+
+.tweet__conteudo p {
+  margin-top: 15px;
+  color: #333333;
+}
